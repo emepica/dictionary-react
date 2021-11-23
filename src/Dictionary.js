@@ -5,7 +5,7 @@ import "./Dictionary.css";
 import Results from "./Results";
 
 export default function Dictionary() {
-  let [keyword, setKeyword] = useState("");
+  let [keyword, setKeyword] = useState("Wave");
   let [results,setResults]= useState(null);
 
   function handleResponse(response){
