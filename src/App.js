@@ -14,7 +14,7 @@ function App(props) {
       <main>
         <Dictionary defaultKeyword="Wave"/>
       </main>
-      <footer>This project was built by Emeline Picard and is <a href="https://github.com/emepica/dictionary-react">open-sourced</a></footer>
+      <footer>This project was built by Emeline Picard and is <a href="https://github.com/emepica/dictionary-react" target="_blank" rel="noreferrer">open-sourced</a></footer>
     </div>
     </div>
   );
