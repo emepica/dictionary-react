@@ -15,7 +15,12 @@ export default function Meaning(props){
                         <div className="example">
                         {definition.example}
                         </div>
+                        <div className="element-to-hide">
                         <Synonyms synonyms={definition.synonyms}/>
+                        </div>
+                        <div className="element-to-show"> 
+                        <br/>
+                        </div>
                     </div>
                 )
             })}

@@ -22,3 +22,13 @@ header, footer{
   font-size: 13px;
   font-style: italic;
 }
+@media (max-width: 700px) {
+  .element-to-hide {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  .element-to-show {
+    display: none;
+  }
+}

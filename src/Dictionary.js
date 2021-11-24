@@ -51,10 +51,10 @@ export default function Dictionary(props) {
  if (loaded){
   return (
     <div className="Dictionary">
-      <section>
+      <section className="search-bar-section">
       <form onSubmit={handleSubmit}>
         <input type="search" className="Search-Bar" defaultValue={props.defaultKeyword} onChange={handleKeywordChange} />
-        <button type="Sumbit">Search</button>
+        <button type="Sumbit" className="element-to-hide">Search</button>
       </form>
       <div className="hint">
         Suggested words: sunset, wine, dance, plants, ... 
