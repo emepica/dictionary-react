@@ -1,6 +1,10 @@
 .App {
   text-align: center;
+  background-color: #F6EFFA;
 }
 header, footer{
   padding: 30px 0;
+}
+.App header{
+  font-size: 40px;
 }

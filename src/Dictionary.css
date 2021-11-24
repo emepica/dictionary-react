@@ -1,3 +1,33 @@
 .Dictionary {
     text-align: center;
 }
+.Dictionary section{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 10px 15px rgb(0 0 0/ 10%);
+    padding: 20px 40px;
+    margin: 20px;
+}
+input{
+    width: 80%;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px 15px;
+}
+button{
+    border-radius: 40px;
+    padding:10px 15px ;
+    border: 1px solid thistle;
+    color: grey;
+    background-color: white;
+    transition: linear 2ms;
+}
+button:hover{
+    color: white;
+    background-color: thistle;
+}
+.Dictionary .hint{
+    font-size: 11px;
+    color: grey;
+}
