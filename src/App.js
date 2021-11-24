@@ -1,7 +1,7 @@
 import './App.css';
 import Dictionary from './Dictionary';
 
-function App() {
+function App(props) {  
   return (
     
     <div className="App">
@@ -10,7 +10,7 @@ function App() {
        Dictionary
       </header>
       <main>
-        <Dictionary defaultKeyword="wave"/>
+        <Dictionary defaultKeyword="Wave"/>
       </main>
       <footer>This project was built by Emeline Picard and is <a href="https://github.com/emepica/dictionary-react">open-sourced</a></footer>
     </div>
