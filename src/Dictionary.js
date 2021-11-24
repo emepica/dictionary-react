@@ -10,7 +10,6 @@ export default function Dictionary(props) {
   let [results,setResults]= useState(null);
   let [loaded,setLoaded]=useState(false);
   let [photos, setPhotos]=useState(null);
-  console.log(props.newWord);
   
   useEffect(()=>{
 

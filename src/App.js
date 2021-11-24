@@ -7,8 +7,10 @@ function App(props) {
     <div className="App">
       <div className="container">
       <header className="App-header">
+       <img src="./dictionary.jpg" alt="dictionary icon" className="image-fluid"/> 
        Dictionary
       </header>
+      <span>Try looking up some word </span>
       <main>
         <Dictionary defaultKeyword="Wave"/>
       </main>
