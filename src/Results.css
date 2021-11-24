@@ -1,7 +1,8 @@
 .Results{
     text-align: left;
 }
-h2{
+.Results h2{
     font-size: 36px;
     font-weight: bold;
+    text-transform: capitalize;
 }
